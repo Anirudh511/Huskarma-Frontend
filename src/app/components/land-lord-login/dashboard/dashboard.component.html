@@ -1,0 +1,140 @@
+<style>
+  *{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+ 
+</style>
+<br>
+
+<!-- navbar -->
+<app-header></app-header> 
+
+
+<!-- side-scroll -->
+
+<br><br>
+
+<div class="container-flex bg-white">
+  <div class="row ">
+    <div class="col-sm-2">      
+     <app-sidebar></app-sidebar>
+     </div>
+
+
+
+       <!-- Bids/Offer -->
+    
+      <div class="col-sm-10 bg-light  ">
+        <div class="container-flex pt-4">
+            <div class="row ">
+              <div class="col-sm-6 ">
+                <h1 style="margin-left: 25%; font-weight: bold;">Bids/Offers</h1>
+              </div>
+              
+              <div class="col-sm-4 ">
+                <div class="container">
+                    <form class="form-inline my-2 my-lg-0 ">
+                      <input class="form-control rounded-pill w-75 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     
+                    </form>
+                  </div>
+              </div>
+              <div class="col-sm-2">
+                <button type="button" class="btn btn-warning fs-4  w-100 ">+AddListing</button>
+              </div>
+            </div>
+          </div><br>
+
+
+           <!-- image-card -->
+
+          <div class="container  bg-white pt-5 "  style="width: 80%;">
+            <div class="row " >
+              
+              <div class="col-sm-10 ms-5">
+                <div class="card mb-3" style="max-width: 700px; height: 180px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <img  style="height: 180px;" [src]="myImage" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p>22-123 Main St. Toronto</p>
+                        <h1 class="card-title" style="font-weight: bold;">Modern City Condo</h1>
+                        <p class="card-text">2 Rooms | 2 Bath | 1 Year | $ 2450/mo</p>
+                         <div class="d-flex text-center">
+                          <div>
+                            <h6 class="fs-6">$1800 <p>Starting Bid</p></h6>
+                           
+                           </div>
+                           <div class="ms-3">
+                            <h6 class="fs-6">$2800 <p>Highest Bid</p></h6>
+                           
+                          </div>
+                          <i class="fa fa-circle fs-4 ms-5" aria-hidden="true"> 4 bids</i>
+                          <i class="fa fa-heart fs-4 ms-5 "  aria-hidden="true"> 20 likes</i>
+                          <i class="fa fa-circle fs-4 ms-5" aria-hidden="true"> 327 views</i>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 700px; height: 180px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <img  style="height: 180px;" [src]="myImage" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p>22-123 Main St. Toronto</p>
+                        <h1 class="card-title" style="font-weight: bold;">Modern City Condo</h1>
+                        <p class="card-text">2 Rooms | 2 Bath | 1 Year | $ 2450/mo</p>
+                         <div class="d-flex text-center">
+                          <div>
+                            <h6 class="fs-6">$1800 <p>Starting Bid</p></h6>
+                           
+                           </div>
+                           <div class="ms-3">
+                            <h6 class="fs-6">$2800 <p>Highest Bid</p></h6>
+                           
+                          </div>
+                          <i class="fa fa-circle fs-4 ms-5" aria-hidden="true"> 4 bids</i>
+                          <i class="fa fa-heart fs-4 ms-5 "  aria-hidden="true"> 20 likes</i>
+                          <i class="fa fa-circle fs-4 ms-5" aria-hidden="true"> 327 views</i>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 "  >
+                <div class="container " style="margin-left: 80%;">                               
+                
+                  <button type="button" class="btn btn-warning next " >1</button>&#160;
+                  <button type="button" class="btn btn-secondary next">2</button>&#160;
+                  <button type="button" class="btn btn-primary  next">3</button>
+                  
+                  </div>
+                  
+                  
+              </div>
+            </div><br>
+          </div>  
+          <div style="margin-top: 11%;"></div>
+
+          
+      </div>    
+    </div>
+    </div>
+
+    
+
+  
+
+
+
+
+
+
+

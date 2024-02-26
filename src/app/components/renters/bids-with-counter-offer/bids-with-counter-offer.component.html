@@ -1,0 +1,393 @@
+
+ 
+<p>bids-with-counter-offer works!</p>
+
+
+<style>
+  
+    .wrapper{
+        overflow-x: hidden;
+        
+    }
+        /* Custom styles for button hover effect */
+        .btn-custom:hover {
+          background-color: #007bff; /* Change background color on hover */
+          color: #fff; /* Change text color on hover */
+          border-color: #007bff; /* Change border color on hover */
+    
+          
+        }
+        /*--thank you pop starts here--*/
+    .thank-you-pop{
+        width:100%;
+         padding:20px;
+        text-align:center;
+    }
+    .thank-you-pop img{
+        width:76px;
+        height:auto;
+        margin:0 auto;
+        display:block;
+        margin-bottom:25px;
+    }
+    
+    .thank-you-pop h1{
+        font-size: 42px;
+        margin-bottom: 25px;
+        color:#5C5C5C;
+    }
+    .thank-you-pop p{
+        font-size: 20px;
+        margin-bottom: 27px;
+         color:#5C5C5C;
+    }
+    .thank-you-pop h3.cupon-pop{
+        font-size: 25px;
+        margin-bottom: 40px;
+        color:#222;
+        display:inline-block;
+        text-align:center;
+        padding:10px 20px;
+        border:2px dashed #222;
+        clear:both;
+        font-weight:normal;
+    }
+    .thank-you-pop h3.cupon-pop span{
+        color:#03A9F4;
+    }
+    .thank-you-pop a{
+        display: inline-block;
+        margin: 0 auto;
+        padding: 9px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        background-color: #8BC34A;
+        border-radius: 17px;
+    }
+    .thank-you-pop a i{
+        margin-right:5px;
+        color:#fff;
+    }
+    #ignismyModal .modal-header{
+        border:0px;
+    }
+    /*--thank you pop ends here--*/
+    
+        
+      </style>
+    
+    <div class="wrapper ">
+        <!-- navbar -->
+    <br>
+    <div class="container-flex">
+    <div class="ms-5 ">
+        <div class="row">
+          <div class="col-sm-3">
+            <div>
+                <h1 class="font-weight-bold">LEASIMPLE</h1>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="">
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control rounded-pill w-50 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                 
+                </form>
+              </div>
+          </div>
+          <div class="col-sm-3">
+            
+            <div class="">
+              <form class="form-inline my-2 my-lg-0">
+                  <img src="" class="rounded-circle" alt="...">
+                  <input class="form-control rounded-pill w-25  mr-sm-2" type="text" placeholder="Amit kumar" aria-label="text">
+                  <i class="fa fa-bell fs-4 ms-4" aria-hidden="true"></i>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!-- side-scroll -->
+    
+    <br><br>
+    
+    <div class="container-flex">
+        <div class="row ">
+          <div class="col-sm-2">
+            <div class="">
+            <div>            
+                <button type="button" class="btn  btn-custom w-100  "><i class="fa fa-home text-muted fs-4 " style="margin-right: 56px; "  aria-hidden="true"><a class="text-muted" href=""> Bids/Offers</a> </i> </button>
+               
+            </div>
+            
+            
+                <div class="col-sm pt-5 ">
+                    <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-home text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted " href=""> Tenant</a></i></button>
+                    
+                  
+                </div>
+    
+                <div class="col-sm pt-5">
+                    <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-commenting-o text-muted fs-4" style="margin-right: 93px;" aria-hidden="true"> <a class="text-muted" href=""> Chats</a></i></button>
+                    
+                    
+                </div>
+                <div class="col-sm pt-5">
+                    <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-sliders text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"><a class="text-muted" href=""> Setting</a></i></button>
+                   
+                </div>
+                <div class="col-sm pt-5">
+                    <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-life-ring text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Support</a></i></button>
+                    
+                </div>
+                <div class="col-sm pt-5">
+                    <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-sign-out text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Logout</a></i></button>
+                    
+                </div>
+    
+               
+            </div>        
+            
+          </div>
+    
+    
+           <!-- Bids/Offer -->
+       
+          <div class="col-sm-10  border " style="width: 60%; " >
+            <div class="bg-light" >
+                <div class="row" >
+                  <div class="col-sm-6" >
+                    
+                    <h1 ><- Bids/Offers</h1>
+    
+                    
+                  </div>                 
+                </div>
+              </div> 
+    
+                  
+                  
+                
+            
+    
+              
+              <div class="" >
+                <div class="row text-muted  text-center">
+                  <img  class="" [src]="rect" alt="" srcset="">
+                  <div class="col-2 border">
+                    <h4>Entire House</h4>
+                    <i class="fa fa-map-marker fs-4 ms-5 d-flex" aria-hidden="true"><h6 class="ms-1">542 Main St,Toronto</h6></i>
+                    
+                    
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bed fs-4" aria-hidden="true"></i>
+                    <h6>BEDROOMS</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bath fs-4" aria-hidden="true"></i>
+                    <h6>2 BATHROOMS</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-steam-square fs-4" aria-hidden="true"></i>
+                    <h6>790 FT2</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bullseye fs-4" aria-hidden="true"></i>
+                    <h6>UNFURNISHED</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <h4>AVAILABLE DATE</h4>
+                    <h6>Jan 20 2024</h6>
+                  </div>
+                </div>
+              </div>
+    
+        <!-- lease -->
+           
+        <div class="container mt-4 border" style=" margin-right: 50%;">
+          <div class="row">
+            <div class="col-4 ">
+              <div class="row  mt-2 " >
+                <label for="colFormLabelSm" class="col-sm-6 col-form-label col-form-label-sm">Move-in</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control form-control-sm" style="border: none; outline: none;"  id="colFormLabelSm" placeholder="Available now">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="colFormLabel" class="col-sm-6 col-form-label">Max. occupancy</label>
+                <div class="col-sm-4">
+                  <input type="email" class="form-control " style="border: none; outline: none;" id="colFormLabel" placeholder="4 people">
+                </div>
+              </div>
+              
+            </div>
+            <div class="col-4">
+              <div class="row mb-3 mt-2 " >
+                <label for="colFormLabelSm" class="col-sm-6 col-form-label col-form-label-sm">Lease type</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control form-control-sm" style="border: none; outline: none;"  id="colFormLabelSm" placeholder="Fixed term">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="colFormLabel" class="col-sm-6 col-form-label">Minimum lease</label>
+                <div class="col-sm-4">
+                  <input type="email" class="form-control" style="border: none; outline: none;" id="colFormLabel" placeholder="1 year">
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="row mb-3 mt-2 " >
+                <label for="colFormLabelSm" class="col-sm-6 col-form-label col-form-label-sm">Parking available</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control form-control-sm" style="border: none; outline: none;"  id="colFormLabelSm" placeholder="$90/month">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="tab mt-5">
+          <h4>Your Bid</h4>
+          <button type="button" class="btn btn-primary btn-lg" style="width: 10%;">Primary</button>
+        </div>
+
+        <div class="tab1 mt-5">
+          <h4>You have a counter offer</h4>
+          <button type="button" class="btn btn-primary btn-lg">Counter offer</button>
+          <button type="button" class="btn btn-secondary btn-lg">Accept</button>
+          <button type="button" class="btn btn-success btn-lg">Select</button>
+        </div>
+        <div class="container mt-5 border">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="pt-3">Amenities</h3>
+              <h5 class="pt-3">Features included</h5>
+              <div class="container">
+                <div class="row">
+                  <div class="col-10 d-flex pt-3 ">
+                    <img [src]="bath" alt="" srcset="">
+                    <h5 class="ms-5">Bathtub</h5>
+                    <img [src]="micro" class="ms-5" alt="" srcset="">
+                    <h5 class="ms-5">Microwave</h5>
+                    <img [src]="fridge" class="ms-5" alt="" srcset="">
+                    <h5 class="ms-5">Fridge</h5>
+                    <img [src]="suite" class="ms-5" alt="" srcset="">
+                    <h5 class="ms-5">In suite dryer</h5>
+                  </div>
+                  
+                </div>
+              </div>
+              <h5 class="pt-3">Utilities included</h5>
+              <div class="container">
+                <div class="row">
+                  <div class="col-10 d-flex pt-3 ">
+                    <img [src]="cable" alt="" srcset="">
+                    <h5 class="ms-5">Cable</h5>
+                    <img [src]="electricity" class="ms-5" alt="" srcset="">
+                    <h5 class="ms-4">Electricity</h5>
+                    <img [src]="heat" class="ms-5" alt="" srcset="">
+                    <h5 class="ms-5">Heat</h5>
+                    
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+   <!-- lease end -->
+
+        <div class="container mt-5 border">
+          <div class="row">
+            <div class="col-10">
+              <h3 class="mt-3">About this property</h3>
+              <p class="mt-3"><span>NO pets, NO smoking</span><br><br>
+
+                South East corner, 15" Vaulted ceilings, Large Pantry and Large walk in Laundry room with shelving
+                Residences at The Heights is a beautiful new rental development planned for the Austin Heights neighbourhood of Coquitlam. It is the first stand alone market rental property development to be built in Coquitlam in four decades!</p>
+            </div>
+           
+          </div>
+        </div>
+
+
+
+
+        <div class="container mt-4 border" style=" margin-right: 50%;">
+          <h2>Property Rule</h2>
+          <div class="row">
+            <div class="col-4 ">
+              <div class="row  mt-2 " >
+                <label for="colFormLabelSm" class="col-sm-6 col-form-label col-form-label-sm">Move-in</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control form-control-sm" style="border: none; outline: none;"  id="colFormLabelSm" placeholder="Available now">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="colFormLabel" class="col-sm-6 col-form-label">Max. occupancy</label>
+                <div class="col-sm-4">
+                  <input type="email" class="form-control " style="border: none; outline: none;" id="colFormLabel" placeholder="4 people">
+                </div>
+              </div>
+              
+            </div>
+            
+              
+            </div>
+          </div>
+        </div>
+        
+
+
+
+        <div class="container mt-5">
+          <canvas id="lineChart" width="400" height="200"></canvas>
+        </div>
+
+        <!-- Bootstrap JS Bundle (Popper included) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.10.0"></script>
+
+<!-- Your custom script -->
+<script>
+  // JavaScript code for creating the line chart
+  document.addEventListener('DOMContentLoaded', function () {
+    var ctx = document.getElementById('lineChart').getContext('2d');
+    
+    var data = {
+      labels: ['January', 'February', 'March', 'April', 'May'],
+      datasets: [{
+        label: 'Monthly Data',
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        data: [10, 30, 15, 25, 20],
+        borderWidth: 1
+      }]
+    };
+    
+    var options = {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    };
+    
+    var lineChart = new Chart(ctx, {
+      type: 'line',
+      data: data,
+      options: options
+    });
+  });
+</script>
+
+

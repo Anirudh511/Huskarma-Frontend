@@ -1,0 +1,493 @@
+<style>
+  
+.wrapper{
+    overflow-x: hidden;
+}
+    /* Custom styles for button hover effect */
+    .btn-custom:hover {
+      background-color: #007bff; /* Change background color on hover */
+      color: #fff; /* Change text color on hover */
+      border-color: #007bff; /* Change border color on hover */
+
+      
+    }
+    /*--thank you pop starts here--*/
+.thank-you-pop{
+	width:100%;
+ 	padding:20px;
+	text-align:center;
+}
+.thank-you-pop img{
+	width:76px;
+	height:auto;
+	margin:0 auto;
+	display:block;
+	margin-bottom:25px;
+}
+
+.thank-you-pop h1{
+	font-size: 42px;
+    margin-bottom: 25px;
+	color:#5C5C5C;
+}
+.thank-you-pop p{
+	font-size: 20px;
+    margin-bottom: 27px;
+ 	color:#5C5C5C;
+}
+.thank-you-pop h3.cupon-pop{
+	font-size: 25px;
+    margin-bottom: 40px;
+	color:#222;
+	display:inline-block;
+	text-align:center;
+	padding:10px 20px;
+	border:2px dashed #222;
+	clear:both;
+	font-weight:normal;
+}
+.thank-you-pop h3.cupon-pop span{
+	color:#03A9F4;
+}
+.thank-you-pop a{
+	display: inline-block;
+    margin: 0 auto;
+    padding: 9px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #8BC34A;
+    border-radius: 17px;
+}
+.thank-you-pop a i{
+	margin-right:5px;
+	color:#fff;
+}
+#ignismyModal .modal-header{
+    border:0px;
+}
+/*--thank you pop ends here--*/
+
+    
+  </style>
+
+<div class="wrapper ">
+    <!-- navbar -->
+<br>
+<app-header></app-header>
+
+
+<!-- side-scroll -->
+
+<br><br>
+
+<div class="container-flex">
+    <div class="row ">
+      <div class="col-sm-2">
+        <div class="">
+        <div>            
+            <button type="button" class="btn  btn-custom w-100  "><i class="fa fa-home text-muted fs-4 " style="margin-right: 56px; "  aria-hidden="true"><a class="text-muted" href=""> Bids/Offers</a> </i> </button>
+           
+        </div>
+        
+        
+            <div class="col-sm pt-5 ">
+                <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-home text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted " href=""> Tenant</a></i></button>
+                
+              
+            </div>
+
+            <div class="col-sm pt-5">
+                <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-commenting-o text-muted fs-4" style="margin-right: 93px;" aria-hidden="true"> <a class="text-muted" href=""> Chats</a></i></button>
+                
+                
+            </div>
+            <div class="col-sm pt-5">
+                <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-sliders text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"><a class="text-muted" href=""> Setting</a></i></button>
+               
+            </div>
+            <div class="col-sm pt-5">
+                <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-life-ring text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Support</a></i></button>
+                
+            </div>
+            <div class="col-sm pt-5">
+                <button type="button" class="btn  btn-custom w-100 "><i class="fa fa-sign-out text-muted fs-4" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Logout</a></i></button>
+                
+            </div>
+
+           
+        </div>        
+        
+      </div>
+
+
+       <!-- Bids/Offer -->
+    
+      <div class="col-sm-10 ">
+        <div class="">
+            <div class="row">
+              <div class="col-sm-6" >
+                <h6>Bids / Offers > Modern City Condo</h6>
+                <h1 >< Modern City Condo</h1>
+
+                <!-- <img  class="" [src]="rect" alt="" srcset=""> -->
+              </div> 
+              
+              
+
+
+              <div class="col-sm-3  ">
+                <div class="container ms-5">
+                    <form class="form-inline ms-5 my-lg-0 ">
+                        <button type="button" class="btn btn-custom fs-4" style=" font-weight: bold;">Previous</button>
+                     
+                    </form>
+                  </div>
+              </div>
+              <div class="col-sm-3 ">
+                <button type="button" class="btn btn-warning  fs-4" style="color: aliceblue; font-weight: bold;">Edit Listing</button>
+              </div>
+            </div>
+          </div>
+        
+
+          <img  class="" [src]="rect" alt="" srcset="">
+
+          <div class="container mt-3 " >
+            <div class="row text-muted mt-2 text-center " style="width: 95%;">
+              <div class="col-2 border">
+                <h4>Entire House</h4>
+                <i class="fa fa-map-marker fs-4 ms-5 d-flex" aria-hidden="true"><h6 class="ms-1">542 Main St,Toronto</h6></i>
+                
+                
+              </div>
+              <div class="col-2 border">
+                <i class="fa fa-bed fs-4" aria-hidden="true"></i>
+                <h6>BEDROOMS</h6>
+              </div>
+              <div class="col-2 border">
+                <i class="fa fa-bath fs-4" aria-hidden="true"></i>
+                <h6>2 BATHROOMS</h6>
+              </div>
+              <div class="col-2 border">
+                <i class="fa fa-steam-square fs-4" aria-hidden="true"></i>
+                <h6>790 FT2</h6>
+              </div>
+              <div class="col-2 border">
+                <i class="fa fa-bullseye fs-4" aria-hidden="true"></i>
+                <h6>UNFURNISHED</h6>
+              </div>
+              <div class="col-2 border">
+                <h4>AVAILABLE DATE</h4>
+                <h6>Jan 20 2024</h6>
+              </div>
+            </div>
+          </div>
+
+
+
+           <!-- table-card -->
+
+           <div class="container  mt-4" ><br>
+            <div class="row">
+              
+              <div class="col-sm-11" >
+               
+                    <table class="table  text-center" >
+                        <thead class="border fs-6">
+
+                          <tr>
+                            
+                            <th scope="col">BID</th>
+                            <th scope="col">APPLICATION NAME</th>
+                            <th scope="col">LEASIMPLE SCORE</th>
+                            <th scope="col">JOB TITLE</th>
+                            <th scope="col">DISPOSABLE</th>
+                            <th scope="col">ACTION</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody class="fs-6">
+                          <tr class="border" >
+                            <td >$2,800</td>
+                            <td >Ani</td>
+                            <td>349</td>
+                            <td>Marketing</td>
+                            <td >$75k</td>
+                            <td> <button type="button" class="btn bg-warning rounded-pill fs-4 w-75 "data-bs-toggle="modal" data-bs-target="#view" >view</button></td>
+                          </tr>
+                          <tr class="border" >
+                            <td >$2,800</td>
+                            <td >Ani</td>
+                            <td>349</td>
+                            <td>Marketing</td>
+                            <td >$75k</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75">view</button></td>
+                          </tr>
+                          <tr class="border">
+                            
+                            <tr class="border" >
+                              <td >$2,800</td>
+                              <td >Ani</td>
+                              <td>349</td>
+                              <td>Marketing</td>
+                              <td >$75k</td>
+                              <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75">view</button></td>
+                            </tr>
+                            <tr class="border" >
+                              <td >$2,800</td>
+                              <td >Ani</td>
+                              <td>349</td>
+                              <td>Marketing</td>
+                              <td >$75k</td>
+                              <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75">view</button></td>
+                            </tr>
+                            <tr class="border" >
+                              <td >$2,800</td>
+                              <td >Ani</td>
+                              <td>349</td>
+                              <td>Marketing</td>
+                              <td >$75k</td>
+                              <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75">view</button></td>
+                            </tr>
+                          
+                        </tbody>
+                        
+                      </table>
+                                   
+                      <div class="container " style="margin-left: 85% ;">                               
+                
+                        <button type="button" class="btn btn-warning next ">1</button>&#160;
+                        <button type="button" class="btn btn-secondary next">2</button>&#160;
+                        <button type="button" class="btn btn-primary  next">3</button>
+                        
+                        </div><br>
+                
+              </div>
+              
+            </div>
+          </div>  
+
+          
+      </div>    
+    </div>
+    </div>
+
+    <!-- Bidder details -->
+
+    <div class="modal" id="view" tabindex="-1" aria-labelledby="viewLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 12rem; border: none;">
+                  <img [src]="myImage2" class="card-img-top rounded-circle " alt="...">                   
+                        
+                     </div>
+                </div>
+                <div class="col-4">
+                  <h1>Ani kumar</h1>
+                  <h6>anikumar.gmail.com</h6>
+                  <p>LEASIMPLE SCORE</p>
+                  <i class="fa fa-star" aria-hidden="true">2.5</i>
+                  <h6>CREDIT RATING</h6>
+                  <i class="fa fa-star" aria-hidden="true">2.5</i>
+                </div>
+                <div class="col-4 pt-5 ">
+                  <div class="col-2 ">
+                    <button type="button" class="btn btn-primary bt-lg " data-bs-toggle="modal" data-bs-target="#book" style="width: 125px; height: 30px;">BOOK A VISIT</button>
+                  </div>
+                  <div class="col-2 pt-1">
+                    <button type="button" class="btn btn-secondary bt-lg " style="width: 125px; height: 30px;">WAITLIST</button>
+                  </div>
+                  <div class="col-2 pt-1">
+                    <button type="button" class="btn btn-warning bt-lg " style="width: 125px; height: 30px;">COUNTER OFFER</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>            
+          
+          <div class="container mt-5 ">
+            <h4>Personal Information</h4>   
+            <form class="">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="DOB">DOB</label>
+                  <input type="number" class="form-control" id="PET" placeholder="DOB">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="PET">PET</label>
+                  <input type="text" class="form-control" id="PET" placeholder="PET">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="PET">PET</label>
+                  <input type="text" class="form-control" id="PET" placeholder="PET">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="# OF TENANTS"># OF TENANTS</label>
+                  <input type="number" class="form-control" id="# OF TENANTS" placeholder="# OF TENANTS">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="ABOUT FIRST NAME">ABOUT FIRST NAME</label>
+                  <input type="text" class="form-control" id="ABOUT FIRST NAME" placeholder="ABOUT FIRST NAME">
+                </div>
+              </div>
+              
+            </form>
+          </div>
+          <div class="container mt-5 ">
+            <h4>Employment Details</h4>   
+            <form class="">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="JOB TITLE">JOB TITLE</label>
+                  <input type="text" class="form-control" id="JOB TITLE" placeholder="JOB TITLE">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="COMPANY/SELF EMPLOYED">COMPANY/SELF EMPLOYED</label>
+                  <input type="text" class="form-control" id="COMPANY/SELF EMPLOYED" placeholder="COMPANY">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="Length of Employment">Length of Employment</label>
+                  <input type="text" class="form-control" id="Length of Employment" placeholder="Length of Employment">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="LINKEDIN">LINKEDIN</label>
+                  <input type="text" class="form-control" id="LINKEDIN" placeholder="LINKEDIN">
+                </div>
+                
+              </div>
+              
+            </form>
+          </div>
+
+          <div class="container mt-5 ">
+            <h4>Address History</h4>   
+            <form class="">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="123 Street, City, State, Country">123 Street, City, State, Country</label>
+                  <input type="text" class="form-control" id="123 Street, City, State, Country" placeholder="123 Street, City, State, Country">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="Length of RESIDENCE">Length of RESIDENCE</label>
+                  <input type="text" class="form-control" id="Length of RESIDENCE" placeholder="Length of RESIDENCE">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="ADDRESS">ADDRESS</label>
+                  <input type="text" class="form-control" id="ADDRESS" placeholder="ADDRESS">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="Length of RESIDENCE">Length of RESIDENCE</label>
+                  <input type="text" class="form-control" id="Length of RESIDENCE" placeholder="Length of RESIDENCE">
+                </div>
+                
+              </div>
+              
+            </form>
+          </div>
+          <div class="container mt-5 ">
+            <h4>Reference</h4>   
+            <form class="">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="NAME">NAME</label>
+                  <input type="text" class="form-control" id="NAME" placeholder="NAME">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="NUMBER">NUMBER</label>
+                  <input type="number" class="form-control" id="NUMBER" placeholder="NUMBER">
+                </div>
+                
+                
+              </div>
+              
+            </form>
+          </div>
+        </div>       
+          
+        </div>
+      </div>
+    </div>
+    
+
+<!-- ------------------------------------- -->
+   
+          <!-- Book a visit -->
+
+<!-- ------------------------------------ -->
+
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal " id="book" tabindex="-1" aria-labelledby="bookLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 ms-2">
+              
+              <h1 class="modal-title" style="font-weight: bold;" id="bookLabel">BOOK A VISIT</h1>
+              <h2 class="pt-5" >Ani kumar</h2>
+              <h6>anikumar.gmail.com</h6>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+               <i class="fa fa-star" aria-hidden="true"></i>
+                <h6>CREDIT RATING</h6>
+                <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+           </div>
+            </div>
+            <div class="col-6"></div>           
+          </div>
+          <div class="container">
+            <h6>SELECT DATE & TIME</h6>
+            <input class="text-muted w-50 " style="height: 30px;" type="date" name="datetime" id="">
+            <a class="btn btn-warning  ms-5 w-25" style="height: 30px; font-size: 15px; font-weight: bold;" data-toggle="modal" href="#ignismyModal">BOOKED</a>
+          </div><br>
+            
+        </div>       
+      </div>    
+      
+    </div>
+  </div>
+</div>
+
+<!--Model Popup starts-->
+<div class="container">
+  <div class="row">
+      
+      <div class="modal " id="ignismyModal" role="dialog">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label=""><span>×</span></button>
+                   </div>
+        
+                  <div class="modal-body">
+                     
+          <div class="thank-you-pop">
+            <img src="http://goactionstations.co.uk/wp-content/uploads/2017/03/Green-Round-Tick.png" alt="">
+            <h1>VISIT BOOKED</h1>
+            <p>Your visit has been booked successfully!</p>
+            
+            
+           </div>
+                       
+                  </div>
+        
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!--Model Popup ends-->

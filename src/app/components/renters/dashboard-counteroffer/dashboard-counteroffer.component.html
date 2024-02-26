@@ -1,0 +1,178 @@
+<style>
+  *{
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+</style>
+<br>
+
+<!-- navbar -->
+
+
+<!-- <div class="container-flex bidss">
+  <div class="ms-5 ">
+      <div class="row">
+        <div class="col-sm-3">
+          <div>
+              <h1 class="font-weight-bold">LEASIMPLE</h1>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control rounded-pill w-50 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               
+              </form>
+            </div>
+        </div>
+        <div class="col-sm-3">
+          
+          <div class="">
+            <form class="form-inline my-2 my-lg-0">
+                <img [src]="myImage2" class="rounded-circle" style="height: 10%; width: 10%;" alt="...">
+                <input class="form-control rounded-pill w-25  mr-sm-2" type="text" placeholder="Amit kumar" aria-label="text">
+                <i class="fa fa-bell fs-4 ms-4" aria-hidden="true"></i>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  
+
+
+<!-- side-scroll -->
+
+<br><br>
+
+<div class="container-flex bg-white">
+  <div class="row ">
+    <div class="col-sm-2">
+      <div class="">
+      <div>            
+          <button type="button" class="btn  btn-custom w-100  fs-4"><i class="fa fa-home text-muted fs-3 " style="margin-right: 56px; "  aria-hidden="true"><a class="text-muted" href=""> Bids/Offers</a> </i> </button>
+         
+      </div>
+      
+      
+          <div class="col-sm pt-5 ">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-home text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted " href=""> Tenant</a></i></button>
+              
+            
+          </div>
+
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-commenting-o text-muted fs-3" style="margin-right: 93px;" aria-hidden="true"> <a class="text-muted" href=""> Chats</a></i></button>
+              
+              
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-sliders text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"><a class="text-muted" href=""> Setting</a></i></button>
+             
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-life-ring text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Support</a></i></button>
+              
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-sign-out text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Logout</a></i></button>
+              
+          </div>
+
+         
+      </div>        
+      
+    </div>
+
+
+
+       <!-- Bids/Offer -->
+    
+      <div class="col-sm-10 bg-light  ">
+        <div class="container-flex pt-5">
+            <div class="row">
+              <div class="col-sm-6 ">
+                <h1 style="margin-left: 25%; font-weight: bold;">Bids/Offers</h1>
+              </div>
+              
+              <div class="col-sm-4 ">
+                <div class="container">
+                    <form class="form-inline my-2 my-lg-0 ">
+                      <input class="form-control rounded-pill w-75 mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     
+                    </form>
+                  </div>
+              </div>
+              <div class="col-sm-2">
+                <button type="button" class="btn btn-warning fs-4  w-100 ">+AddListing</button>
+              </div>
+            </div>
+          </div>
+
+
+           <!-- image-card -->
+
+          <div class="container  bg-white pt-5 " style="width: 80%;">
+            <div class="row " >
+              
+              <div class="col-sm-10 ms-5">
+                <div class="card mb-3" style="max-width: 650px; height: 152px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <img  style="height: 150px;" [src]="myImage" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 650px; height: 152px;">
+                  <div class="row no-gutters">
+                    <div class="col-md-3">
+                      <img  style="height: 150px;" [src]="myImage" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-10 "  >
+                <div class="container " style="margin-left: 80%;">                               
+                
+                  <button type="button" class="btn btn-warning next " >1</button>&#160;
+                  <button type="button" class="btn btn-secondary next">2</button>&#160;
+                  <button type="button" class="btn btn-primary  next">3</button>
+                  
+                  </div>
+                  
+                  
+              </div>
+            </div><br>
+          </div>  
+          <div style="margin-top: 11%;"></div>
+
+          
+      </div>    
+    </div>
+    </div>
+
+    
+
+  
+
+
+
+
+
+
+

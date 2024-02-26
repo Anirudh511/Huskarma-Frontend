@@ -1,0 +1,465 @@
+<style>
+  .wrapper{
+    overflow-x: hidden;
+  }
+    /* Custom styles for button hover effect */
+    .btn-custom:hover {
+      background-color: #007bff; /* Change background color on hover */
+      color: #fff; /* Change text color on hover */
+      border-color: #007bff; /* Change border color on hover */
+    }
+    
+    </style>
+
+<div class="wrapper ">
+    <!-- navbar -->
+<br>
+<app-header></app-header>
+
+
+<!-- side-scroll -->
+
+<br><br>
+
+<div class="container-flex">
+  <div class="row ">
+    <div class="col-sm-2">
+      <div class="">
+      <div>            
+          <button type="button" class="btn  btn-custom w-100  fs-4"><i class="fa fa-home text-muted fs-3 " style="margin-right: 56px; "  aria-hidden="true"><a class="text-muted" href=""> Bids/Offers</a> </i> </button>
+         
+      </div>
+      
+      
+          <div class="col-sm pt-5 ">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-home text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted " href=""> Tenant</a></i></button>
+              
+            
+          </div>
+
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-commenting-o text-muted fs-3" style="margin-right: 93px;" aria-hidden="true"> <a class="text-muted" href=""> Chats</a></i></button>
+              
+              
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-sliders text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"><a class="text-muted" href=""> Setting</a></i></button>
+             
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-life-ring text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Support</a></i></button>
+              
+          </div>
+          <div class="col-sm pt-5">
+              <button type="button" class="btn  btn-custom w-100 fs-4"><i class="fa fa-sign-out text-muted fs-3" style="margin-right: 90px;" aria-hidden="true"> <a class="text-muted" href=""> Logout</a></i></button>
+              
+          </div>
+
+         
+      </div>        
+      
+    </div>
+
+
+       <!-- Bids/Offer -->
+    
+      <div class="col-sm-10 " style="background: #F9FBFF;">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm-6" >
+                <h1 >Tenants</h1>
+              </div>          
+              
+            </div>
+          </div>
+         
+
+
+           <!-- table-card -->
+
+          <div class="container  mt-5" ><br>
+            <div class="row">
+              
+              <div class="col-sm-11 ms-5 ">
+               
+                    <table class="table  text-center" >
+                        <thead class="border fs-5">
+
+                          <tr>
+                            
+                            <th scope="col">TENANTS NAME</th>
+                            <th scope="col">UNIT</th>
+                            <th scope="col">HUSKARMA SCORE</th>
+                            <th scope="col">ACTION</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody class="fs-5">
+                          <tr class="border" >
+                            
+                            <td >Ani</td>
+                            <td>542 Main St. Varanasi</td>
+                            <td>3 STARS</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75"><a class="text-muted" href="bid-details">view</a></button></td>
+                          </tr>
+                          <tr class="border">
+                            
+                            <td>Ani</td>
+                            <td>542 Main St. Varanasi</td>
+                            <td>3 STARS</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75" data-bs-toggle="modal" data-bs-target="#exampleModal">view</button></td>
+                          </tr>
+                          <tr class="border">
+                            
+                            <td>Ani</td>
+                            <td>542 Main St. Varanasi</td>
+                            <td>3 STARS</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75 "><a class="text-muted" href="">view</a></button></td>
+                          </tr>
+                          <tr class="border">
+                            
+                            <td>Ani</td>
+                            <td>542 Main St. Varanasi</td>
+                            <td>3 STARS</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75"><a class="text-muted" href="">view</a></button></td>
+                          </tr>
+                          <tr class="border">
+                            
+                            <td>Ani</td>
+                            <td>542 Main St. Varanasi</td>
+                            <td>3 STARS</td>
+                            <td><button type="button" class="btn bg-warning rounded-pill fs-4 w-75"><a class="text-muted" href="">view</a></button></td>
+                          </tr>
+                          
+                          
+                        </tbody>
+                        
+                      </table>
+                                   
+                      <div class="container " style="margin-left: 85% ;">                               
+                
+                        <button type="button" class="btn btn-warning next ">1</button>&#160;
+                        <button type="button" class="btn btn-secondary next">2</button>&#160;
+                        <button type="button" class="btn btn-primary  next">3</button>
+                        
+                        </div><br>
+                
+              </div>
+               <div style="margin-top: 14%;"></div>
+            </div>
+          </div>  
+
+          
+      </div>    
+    </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal modal-xl " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog ">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="container mx-lg-5 ms-5">
+          <div class="row">
+            <div class="col-lg-12 col-md-6 col-4">
+              <div class="card" style="width: 12rem; border: none; ">
+                
+              </div>
+              
+              <div class="col-4">
+                <div class="card mb-3" style="max-width: 540px ;border:none; ">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img [src]="rect" class="img-fluid rounded-pill pt-3" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Ani kumar</h5>
+                        <h6 class="card-text">anikumar.gmail.com</h6>
+                        <p class="card-text">LEASIMPLE</p>
+                        <i class="fa fa-star-o" aria-hidden="true">2.5</i>
+                        <P class="card-text">CREDIT RATING</P>
+                        <i class="fa fa-star-o" aria-hidden="true">675</i><br>
+                        <a href="http://" data-bs-toggle="modal" data-bs-target="#answer">View Answer from tenant</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img [src]="myImage2" class="img-fluid  pt-3" alt="...">
+
+
+              <div class="container mt-3 " >
+                <div class="row text-muted mt-2 text-center " style="width: 100%;">
+                  <div class="col-2 border">
+                    <h4>Entire House</h4>
+                    <i class="fa fa-map-marker fs-4 ms-5 d-flex" aria-hidden="true"><h6 class="ms-1">542 Main St,Toronto</h6></i>
+                    
+                    
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bed fs-4" aria-hidden="true"></i>
+                    <h6>BEDROOMS</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bath fs-4" aria-hidden="true"></i>
+                    <h6>2 BATHROOMS</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-steam-square fs-4" aria-hidden="true"></i>
+                    <h6>790 FT2</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <i class="fa fa-bullseye fs-4" aria-hidden="true"></i>
+                    <h6>UNFURNISHED</h6>
+                  </div>
+                  <div class="col-2 border">
+                    <h4>AVAILABLE DATE</h4>
+                    <h6>Jan 20 2024</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="pt-5 " >
+                  <h2>INITIAL BID</h2>
+                  <h1 style="font-weight: bold;">$6,550</h1>
+                  <h2>Application offer</h2>
+                  <h1 style="font-weight: bold;">$3,550</h1>
+                  <h2>ENTER YOUR COUNTER OFFER</h2>
+                  <input class="w-25"  style="height: 35px;" type="text">
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+  
+</div>
+
+
+<!-- ------------------------------ -->
+
+<!-- ----------View Answer ----------->
+
+
+<!-- ----------------------------- -->
+
+<div class="modal" id="answer" tabindex="-1" aria-labelledby="viewLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="card" style="width: 12rem; border: none;">
+              <img [src]="rect" class="card-img-top rounded-circle " alt="...">                   
+                    
+                 </div>
+            </div>
+            <div class="col-4">
+              <h1>Ani kumar</h1>
+              <h6>anikumar.gmail.com</h6>
+              <p>LEASIMPLE SCORE</p>
+              <i class="fa fa-star" aria-hidden="true">2.5</i>
+              <h6>CREDIT RATING</h6>
+              <i class="fa fa-star" aria-hidden="true">2.5</i>
+            </div>
+            <div class="col-4 pt-5 ">
+              <div class="col-2 ">
+                <button type="button" class="btn btn-primary bt-lg " data-bs-toggle="modal" data-bs-target="#book" style="width: 125px; height: 30px;">BOOK A VISIT</button>
+              </div>
+              <div class="col-2 pt-1">
+                <button type="button" class="btn btn-secondary bt-lg " style="width: 125px; height: 30px;">WAITLIST</button>
+              </div>
+              <div class="col-2 pt-1">
+                <button type="button" class="btn btn-warning bt-lg " style="width: 125px; height: 30px;">COUNTER OFFER</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>            
+      
+      <div class="container mt-5 ">          
+        <form>
+          <div class="form-row " >
+            <div class="form-group col-md-6">
+              <label for="Full Name">Full Name</label>
+              <input type="text" class="form-control" id="PET"  placeholder="Ani kumar">
+            </div>
+            <div class="form-group col-md-6 pt-5">
+              <a style="margin-left: 9rem;" href="http://">view verified id</a>
+            </div>         
+          </div>  
+        </form>
+        
+      </div>  
+          
+          
+        
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Yearly Salary</label>
+              <input type="number" class="form-control" id="PET" placeholder="$25000">
+            </div>
+            <div class="form-group col-md-6 pt-5">
+              <a style="margin-left: 9rem;" href="http://">view verified salary slip</a>
+            </div>          
+            
+          </div>
+        </form>        
+      </div>   
+
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="DOB">Disposable income</label>
+              <input type="number" class="form-control" id="PET" placeholder="$13000">
+            </div>
+                      
+            
+          </div>
+        </form>  
+
+      </div>   
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Credit</label>
+              <input type="number" class="form-control" id="PET" placeholder="25">
+            </div>
+                      
+            
+          </div>
+        </form>        
+      </div>   
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Employer/Self-employed</label>
+              <input type="text" class="form-control" id="PET" placeholder="Life.bloom">
+            </div>
+            <div class="form-group col-md-6 pt-5">
+              <a style="margin-left: 9rem;" href="http://">view Linkedin account</a>
+            </div>          
+            
+          </div>
+        </form>        
+      </div>   
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Do you have vehicle</label>
+              <input type="text" class="form-control" id="PET" placeholder="yes">
+            </div>
+                      
+            
+          </div>
+        </form>        
+      </div>   
+      <div class="container">          
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="">Relocation Reason</label>
+              <input type="number" class="form-control" id="PET" placeholder="It's too far form work place">
+            </div>
+                      
+            
+          </div>
+        </form>        
+      </div>   
+          
+       
+      <div class="container ">
+        <h4>Landloard Reference</h4>   
+        <form class="">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="JOB TITLE">JOB TITLE</label>
+              <input type="text" class="form-control" id="JOB TITLE" placeholder="JOB TITLE">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="COMPANY/SELF EMPLOYED">COMPANY/SELF EMPLOYED</label>
+              <input type="text" class="form-control" id="COMPANY/SELF EMPLOYED" placeholder="COMPANY">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Length of Employment">Length of Employment</label>
+              <input type="text" class="form-control" id="Length of Employment" placeholder="Length of Employment">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="LINKEDIN">LINKEDIN</label>
+              <input type="text" class="form-control" id="LINKEDIN" placeholder="LINKEDIN">
+            </div>
+            
+          </div>
+          
+        </form>
+      </div>
+
+      <div class="container mt-5 ">
+        <h4>Address History</h4>   
+        <form class="">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="123 Street, City, State, Country">123 Street, City, State, Country</label>
+              <input type="text" class="form-control" id="123 Street, City, State, Country" placeholder="123 Street, City, State, Country">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Length of RESIDENCE">Length of RESIDENCE</label>
+              <input type="text" class="form-control" id="Length of RESIDENCE" placeholder="Length of RESIDENCE">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="ADDRESS">ADDRESS</label>
+              <input type="text" class="form-control" id="ADDRESS" placeholder="ADDRESS">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Length of RESIDENCE">Length of RESIDENCE</label>
+              <input type="text" class="form-control" id="Length of RESIDENCE" placeholder="Length of RESIDENCE">
+            </div>
+            
+          </div>
+          
+        </form>
+      </div>
+      <div class="container mt-5 ">
+        <h4>Reference</h4>   
+        <form class="">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="NAME">NAME</label>
+              <input type="text" class="form-control" id="NAME" placeholder="NAME">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="NUMBER">NUMBER</label>
+              <input type="number" class="form-control" id="NUMBER" placeholder="NUMBER">
+            </div>
+            
+            
+          </div>
+          
+        </form>
+      </div>
+    </div>       
+      
+    </div>
+  </div>
+
+
+  
